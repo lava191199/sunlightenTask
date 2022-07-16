@@ -1,0 +1,4 @@
+export const GET_DATA_REQUEST = "GET_DATA_REQUEST";
+export const GET_DATA_RESPONSE = "GET_DATA_RESPONSE";
+
+export const ACTION_TYPE = "ACTION_TYPE";
