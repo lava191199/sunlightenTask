@@ -11,7 +11,7 @@ function Districts() {
     const [sort, setSort] = useState(false);
     const filteredData = state?.district?.length !== 0 && search?.length !== 0 ? state?.district?.filter((item, index) => item?.districtName?.toLowerCase().startsWith(search?.toLowerCase())) : state?.district;
     const sortData = sort ?  [...filteredData]?.sort((a,b) => b?.districtData?.active- a?.districtData?.active) : filteredData;
-
+console.log("adsfdsadf");
     return (
         <div>
             <input type='text' className='search' placeholder='Search District Name' value={search} onChange={(e) => setSearch(e.target.value)} />
